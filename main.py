@@ -1,13 +1,4 @@
-#Data Types
+a = float(123)
+print(type(a))
 
-#String
-
-print("Hello"[4])
-
-#Float
-3.14
-
-#Boolean
-
-True 
-False 
+print(str(70)+str(100))
