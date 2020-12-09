@@ -1,4 +1,4 @@
-a = float(123)
-print(type(a))
-
-print(str(70)+str(100))
+a = input("Type a two digit number \n")
+print(a)
+b = int(a[0]) + int(a[1])
+print(b)
