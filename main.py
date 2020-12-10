@@ -1,4 +1,1 @@
-a = input("Type a two digit number \n")
-print(a)
-b = int(a[0]) + int(a[1])
-print(b)
+print(3*(3+3)/3-3)
