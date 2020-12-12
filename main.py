@@ -1,10 +1,4 @@
-# 🚨 Don't change the code below 👇
-height = input("enter your height in m: ")
-weight = input("enter your weight in kg: ")
-# 🚨 Don't change the code above 👆
-
-#Write your code below this line 👇
-height = float(height)
-weight = float(weight)
-BMI = round(weight/height**2) 
-print(BMI)
+score = 0
+height = 1.8
+isWinning = True
+print(f"your score is {score}, your height is {height}, you are winning is {isWinning}")
