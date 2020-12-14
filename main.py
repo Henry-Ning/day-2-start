@@ -1,20 +1,13 @@
-# 🚨 Don't change the code below 👇
-age = input("What is your current age?")
-# 🚨 Don't change the code above 👆
+#You are a computer. What will this line of code print?
 
-#Write your code below this line 👇
+print(6 + 4 / 2 - (1 * 2))
 
-life_in_months = (90-int(age))*12
-life_in_weeks = (90-int(age))*52
-life_in_days = (90-int(age))*365
+#What is the data type of the result of the variable a in the following line of code:
 
+a = int("5") / int(1)
+print(type(a))
 
-print(f"You have {life_in_months} months, {life_in_weeks} weeks, {life_in_days} days left.")
+#Which of these lines of code will give you an error?
 
-
-
-
-
-
-
-
+age = 12
+print(""+age+"")
