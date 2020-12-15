@@ -1,13 +1,14 @@
-#You are a computer. What will this line of code print?
+#If the bill was $150.00, split between 5 people, with 12% tip. 
+#Each person should pay (150.00 / 5) * 1.12 = 33.6
+#Format the result to 2 decimal places = 33.60
+#Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
+#HINT 1: https://www.google.com/search?q=how+to+round+number+to+2+decimal+places+python&oq=how+to+round+number+to+2+decimal
+#HINT 2: https://www.kite.com/python/answers/how-to-limit-a-float-to-two-decimal-places-in-python
 
-print(6 + 4 / 2 - (1 * 2))
 
-#What is the data type of the result of the variable a in the following line of code:
-
-a = int("5") / int(1)
-print(type(a))
-
-#Which of these lines of code will give you an error?
-
-age = 12
-print(""+age+"")
+amount = float(input("Enter the bill amount: "))
+tip_percent = float(input("Enter tip percent: "))
+people = int(input("Enter number of people: "))
+each_payment = amount*(1+tip_percent)/people
+final = round(each_payment, 2)
+print(final)
